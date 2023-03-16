@@ -11,7 +11,7 @@ namespace RD91SWinForm
     internal class NETTools
     {
         //public static String targetAddress = "http://10.255.255.235:8080/jeecg-boot/wash/api/sampleCode";
-        public static String targetAddress= "http://192.168.2.208:80/jeecg-boot/wash/api/sampleCode";
+        public static String targetAddress= "http://192.168.1.112:8080/jeecg-boot/wash/api/sampleCode";
         public static string HttpGet(string Url, string postDataStr)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url + (postDataStr == "" ? "" : "?") + postDataStr);

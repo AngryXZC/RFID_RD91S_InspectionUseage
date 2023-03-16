@@ -24,3 +24,15 @@ D:\Users\Administrator\Desktop\RD91SWinForm\obj\Debug\RD91SWinForm.csproj.CoreCo
 D:\Users\Administrator\Desktop\RD91SWinForm\obj\Debug\RD91SWinForm.csproj.CopyComplete
 D:\Users\Administrator\Desktop\RD91SWinForm\obj\Debug\RD91SWinForm.exe
 D:\Users\Administrator\Desktop\RD91SWinForm\obj\Debug\RD91SWinForm.pdb
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\bin\Debug\RD91SWinForm.exe.config
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\bin\Debug\RD91SWinForm.exe
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\bin\Debug\RD91SWinForm.pdb
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.csproj.AssemblyReference.cache
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.csproj.SuggestedBindingRedirects.cache
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.Form1.resources
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.Properties.Resources.resources
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.csproj.GenerateResource.cache
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.csproj.CoreCompileInputs.cache
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.csproj.CopyComplete
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.exe
+D:\Users\Administrator\Documents\C#Project\RD91Publish\RD91SWinForm\obj\Debug\RD91SWinForm.pdb

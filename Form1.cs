@@ -67,8 +67,8 @@ namespace RD91SWinForm
         void onInventoryTag(RXInventoryTag tag)
         {
             
-            string res = tag.strEPC.Replace(" ", "");
-            if (res.Length > 16 && isWholeNumber(res))
+            string res = tag.strEPC.Replace(" ", "").Substring(0,16);
+            if (res.Length >= 16 && isWholeNumber(res))
             {
 
                 if (tag.strEPC.Substring(1, 15) != null)
@@ -78,11 +78,13 @@ namespace RD91SWinForm
                     {
                         try
                         {
+                            
                             //先发送请求
                             string temp = NETTools.HttpGet(NETTools.targetAddress, "sampleCode=" + currentTag);
                             bool isSend = System.Convert.ToBoolean(temp);
                             if (isSend)
                             {
+                             
                                 //向编辑框发送文本消息
                                 SendMsg sendMsg = new SendMsg();
                                 sendMsg.SendText(res.Substring(1, 15));
@@ -201,6 +203,7 @@ namespace RD91SWinForm
                 //Console.WriteLine(reader.SetBeeperMode((byte)0xFF, (byte)0x02));
                 // reader.SetBeeperMode(0x02, 0x02);
                 reader.InventoryReal((byte)0xFF, (byte)0xFF);
+             
                 isLoop = true;
                 string strLog = "连接成功：" + strComPort + "@" + nBaudrate.ToString();
                 startButton.Enabled = false;
